@@ -1,0 +1,71 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Add attributes here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAppearanceButton">@style/AppTextAppearance.Button</item>
+    </style>
+    <!--To fix rendering in preview -->
+    <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+    <!-- Customize your theme here. -->
+    <style name="AppDefault" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--        <item name="colorControlNormal">@color/colorWite</item>-->
+        <!--        <item name="android:statusBarColor">@color/transparent</item>-->
+    </style>
+
+    <style name="Drawer" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Mein_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:alpha">0.9</item>
+        <!--        <item name="android:titleTextColor">@color/colorWite</item>-->
+    </style>
+
+    <style name="Text_quest">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:alpha">0.9</item>
+        <!--        <item name="android:titleTextColor">@color/colorWite</item>-->
+    </style>
+
+    <style name="Title_quest">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:alpha">0.9</item>
+        <!--        <item name="android:titleTextColor">@color/colorWite</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

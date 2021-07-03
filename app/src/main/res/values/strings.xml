@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Квесты</string>
+    <string name="open_draw">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="search_title"></string>
+    <string name="menu_item_message">Сообщения</string>
+    <string name="trip_activity_main">Тот, кто живет, видит много Тот, кто путешествует, видит больше</string>
+    <string name="image_name"></string>
+    <string name="name_user">Екатерина</string>
+    <string name="leaders">Лидеры</string>
+    <string name="achievements">Достижения</string>
+    <string name="about">Об игре</string>
+    <string name="image_circle">Круг с плюсом на главной странице</string>
+    <string name="test1">test1</string>
+    <string name="test2">test2</string>
+    <string name="title_activity_two">Activity_two</string>
+    <string name="motivation">Мотивационные фразы</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment!</string>
+
+    <string name="opisanie">Булгаковские места. Писатель часто населял знакомые дома героями своих произведений. \'Нехорошая\' квартира, дом Мастрера, место встречи Мастера и Маргариты</string>
+    <string name="bulgakov_fragment1_text1">Наш с Вами сегодняшний маршрут начинается от станции метро Маяковская. Из метро выходим в город на улицу Большая Садовая. Сразу поворачиваем налево и идем мимо театра Сатиры. Сворачиваем в небольшой парк с надписью над воротами «Театр Моссовета». Можете погулять по парку. А заодно найдите сидящее в фонтане сказочное существо с копытами.</string>
+    <string name="bulgakov_fragment1_text2">На каком музыкальном инструменте оно играет?</string>
+    <string name="bulgakov_title">Патриаршие пруды и не только</string>
+    <string name="bulgakov_drawing1">Рисунок первого фрагмента</string>
+    <string name="bulgakov_icon_quest">Знак вопроса</string>
+    <string name="bulgakov_icon_result">Знак ответа</string>
+    <string name="bulgakov_editText">Поле для ответа</string>
+
+
+    <string name="bulgakov_dialog_1">Диалог</string>
+    <string name="bulgakov_dialog_text_">Текст диалога Тест</string>
+</resources>

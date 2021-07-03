@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    style="@style/Toolbar"
+    android:layout_marginTop="30dp"
+    android:background="#E8000000"
+    android:backgroundTint="#17FFFFFF"
+    android:backgroundTintMode="add"
+    app:navigationIcon="@drawable/ic_main_menu">
+
+</androidx.appcompat.widget.Toolbar>
